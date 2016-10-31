@@ -1,0 +1,759 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ul, ol {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+
+/*************header**************/
+
+/***********start nav1************/
+
+header {
+	height: 800px;
+	width: 100%;
+	background-image: url(../images/family_hero_large.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#nav1 ul {
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+}
+
+#nav1 ul li {
+	display: inline-block;
+	width: 8%;
+	padding: 10px 0px;
+}
+
+#nav1 ul li a {
+	color: white;
+	font-family: "Ubuntu";
+	font-weight: 100;
+}
+
+#nav1 ul li a:hover {
+	color: #999;
+}
+
+#nav1 ul li:first-child {
+	font-size: 3.5vh!important;
+	font-weight: 100!important;
+}
+
+/************end nav1*************/
+
+/***********start nav2************/
+
+#nav2 {
+	text-align: center;
+	background-color: #333;
+	opacity: 0.8;
+	height: 100px;
+}
+
+#nav2 ul li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+#nav2 ul li a {
+	color: white;
+	font-family: "Ubuntu";
+	font-size: 1.8vh;
+}
+
+#nav2 ul li a:hover {
+	color: #42a1ec;
+}
+
+#nav2-img1 {
+	width:28px;
+	height:54px;
+}
+
+#nav2-img2 {
+	width:31px;
+	height:54px;
+}
+
+#nav2-img3 {
+	width:23px;
+	height:54px;
+}
+
+#nav2-img4 {
+	width:33px;
+	height:54px;
+}
+
+#nav2-img5 {
+	width:33px
+	height:54px;
+}
+
+/*************end nav2**************/
+
+/*******section header-title********/
+
+#header-title {
+	width: 40%;
+	-ms-transform: translate(30%, 65%); /* IE 9 */
+    -webkit-transform: translate(30%, 65%); /* Chrome, Safari, Opera */
+	transform: translate(30%, 65%);
+}
+
+#header-title a, #header-title i, #header-title span, #header-title h1, #header-title p {
+	color: white;
+}
+
+.fa-apple-title {
+	font-size: 8vh!important;
+
+}
+
+#header-title span {
+	font-size: 7vh;
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+
+#header-title h1 {
+	font-family: "Open Sans";
+	font-size: 8.2vh;
+	font-weight: 300;
+}
+#header-title p {
+	font-family: "Open Sans";
+	font-size: 2.5vh;
+	font-weight: 300;
+	margin: 25px 0px;
+}
+
+#learn-more:hover{
+	text-decoration: underline;
+}
+
+#header-title #header-btn {
+	width: 40%;
+	border-radius: 4px;
+	text-align: center;
+	padding: 5px 0px;
+	background-color: #FF365D;
+	cursor: pointer;
+}
+
+#header-title #header-btn:hover {
+	background-color: #ff4d70;
+}
+
+/******end section header-title*******/
+/*************end header**************/
+
+/*********section apple music*********/
+
+#now-on-apple-music-wrap {
+	background-color: #f2f2f2;
+}
+
+#now-on-apple-music-content {
+	width: 85%;
+	margin: auto;
+	background-color: white;
+	-ms-transform: translateY(-5%); /* IE 9 */
+    -webkit-transform: translateY(-5%); /* Chrome, Safari, Opera */
+	transform: translateY(-5%);
+}
+
+#now-on-apple-music-content-inner {
+	width: 85%;
+	margin: auto;
+}
+
+#content-hero #img-hero {
+	width: 100%;
+}
+
+#content-hero h2 {
+	margin: 50px 0px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 6.8vh;
+}
+
+#content-left {
+	width: 30%;
+	float: left;
+	margin: 30px 0px;
+}
+
+#content-left h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 4vh;
+}
+
+#content-left h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+	margin: 0px 0px;
+}
+
+#content-left p {
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+	color: #666;
+}
+
+#content-right {
+	width: 68%;
+	float: right;
+	margin: 30px 0px;
+}
+
+#content-right p {
+	line-height: 1.5;
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+}
+
+#now-on-apple-music-content-inner ul {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#now-on-apple-music-content-inner ul img {
+	width: 100%;
+	border: 1px solid #f2f2f2;
+}
+
+#now-on-apple-music-content-inner ul li {
+	width: 47%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 8px 30px 8px;
+}
+
+.now-on-apple-music-list-text {
+	width: 80%;
+	text-align: left;
+	margin: 20px 0px;
+}
+
+.now-on-apple-music-list-text h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 4vh;
+}
+
+.now-on-apple-music-list-text h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+}
+
+.now-on-apple-music-list-text p {
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+	color: #666;
+}
+
+.now-on-apple-music-list-text a {
+	color: #333;
+}
+
+.now-on-apple-music-list-text a:hover {
+	text-decoration: underline;
+}
+
+/**********end section apple music***********/
+
+/**************section airpods***************/
+
+#airpods-wrap {
+	background-color: #F5FDF1;
+	height: 1000px;
+	overflow: hidden;
+}
+
+#airpods-text {
+	width: 28%;
+	-ms-transform: translate(40%, 200%); /* IE 9 */
+    -webkit-transform: translate(40%, 200%); /* Chrome, Safari, Opera */
+	transform: translate(40%, 200%);
+}
+
+#airpods-text h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 4vh;
+}
+
+#airpods-text h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+}
+
+#airpods-text p {
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+	color: #333;
+	margin: 15px 0px;
+}
+
+#airpods-text a {
+	color: #333;
+}
+
+#airpods-text a:hover {
+	text-decoration: underline;
+}
+
+#airpods-btn {
+	width: 50%;
+	border-radius: 4px;
+	text-align: center;
+	padding: 5px 0px;
+	border: 1px solid #333;
+}
+
+#airpods img {
+	width: 45%;
+	-ms-transform: translate(92%, -15%); /* IE 9 */
+    -webkit-transform: translate(92%, -15%); /* Chrome, Safari, Opera */
+	transform: translate(92%, -15%);
+}
+
+/**********end section airpods***********/
+
+/**************section ipod**************/
+
+#ipod-wrap {
+	background-color: #FFF1DE;
+}
+
+#ipod-text {
+	width: 25%;
+	-ms-transform: translate(40%, 200%); /* IE 9 */
+    -webkit-transform: translate(40%, 200%); /* Chrome, Safari, Opera */
+	transform: translate(47%, 240%);
+}
+
+#ipod-text h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 4vh;
+}
+
+#ipod-text h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+}
+
+#ipod-text p {
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+	color: #333;
+	margin: 15px 0px;
+}
+
+#ipod-text a {
+	color: #333;
+}
+
+#ipod-text a:hover {
+	text-decoration: underline;
+}
+
+#ipod-wrap img {
+	width: 55%;
+	-ms-transform: translate(65%, -5%); /* IE 9 */
+    -webkit-transform: translate(65%, -5%); /* Chrome, Safari, Opera */
+	transform: translate(65%, -5%);
+}
+
+/***********end section ipod************/
+
+/**********section accessories**********/
+
+#accessories-wrap {
+	background-color: #E9F7F8;
+}
+
+#accessories-text {
+	width: 25%;
+	-ms-transform: translate(40%, 200%); /* IE 9 */
+    -webkit-transform: translate(40%, 200%); /* Chrome, Safari, Opera */
+	transform: translate(47%, 240%);
+}
+
+#accessories-text h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 4vh;
+}
+
+#accessories-text h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+}
+
+#accessories-text p {
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+	color: #333;
+	margin: 15px 0px;
+}
+
+#accessories-text a {
+	color: #333;
+}
+
+#accessories a:hover {
+	text-decoration: underline;
+}
+
+#accessories-wrap img {
+	width: 55%;
+	-ms-transform: translate(65%, -5%); /* IE 9 */
+    -webkit-transform: translate(65%, -5%); /* Chrome, Safari, Opera */
+	transform: translate(65%, -5%);
+}
+
+/*********end section accessories*********/
+
+/**************section itunes*************/
+
+#itunes-wrap {
+	background-color: #FCE7E3;
+	overflow: hidden;
+}
+
+#itunes-text {
+	width: 25%;
+	-ms-transform: translate(40%, 200%); /* IE 9 */
+    -webkit-transform: translate(40%, 200%); /* Chrome, Safari, Opera */
+	transform: translate(47%, 180%);
+}
+
+#itunes-text h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 4vh;
+}
+
+#itunes-text h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+}
+
+#itunes-text p {
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+	color: #333;
+	margin: 15px 0px;
+}
+
+#itunes-text a {
+	color: #333;
+}
+
+#itunes a:hover {
+	text-decoration: underline;
+}
+
+#itunes-wrap img {
+	width: 100%;
+	-ms-transform: translate(25%, -10%); /* IE 9 */
+    -webkit-transform: translate(25%, -10%); /* Chrome, Safari, Opera */
+	transform: translate(25%, -10%);
+}
+
+/***********end section itunes***********/
+
+/************section giftcards***********/
+
+#giftcards-wrap {
+	background-color: #FCEFFC;
+	height: 600px;
+}
+
+#giftcards-text {
+	width: 35%;
+	-ms-transform: translate(35%, 90%); /* IE 9 */
+    -webkit-transform: translate(35%, 90%); /* Chrome, Safari, Opera */
+	transform: translate(35%, 90%);
+}
+
+#giftcards-text h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 4vh;
+}
+
+#giftcards-text h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+}
+
+#giftcards-text p {
+	font-family: "Open Sans";
+	font-size: 2.8vh;
+	font-weight: 300;
+	color: #333;
+	margin: 15px 0px;
+}
+
+#giftcards-text a {
+	color: #333;
+}
+
+#giftcards a:hover {
+	text-decoration: underline;
+}
+
+#giftcards-wrap img {
+	width: 40%;
+	-ms-transform: translate(125%, -35%); /* IE 9 */
+    -webkit-transform: translate(125%, -35%); /* Chrome, Safari, Opera */
+	transform: translate(125%, -35%);
+}
+
+/*********end section giftcards**********/
+
+/*********section music-creation*********/
+
+#music-creation-wrap {
+	text-align: center;
+	padding: 50px 0px;
+	margin-bottom: 100px;
+}
+
+#music-creation-title {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.8vh;
+	margin: 30px 0px 50px 0px;
+	
+}
+
+#music-creation-wrap img {
+	margin-top: 20px;
+}
+
+#music-creation-wrap ul li {
+	display: inline-block;
+	width: 18%;
+	text-align: left;
+	margin: 20px 10px 50px 10px;
+}
+
+#music-creation-wrap ul li h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 30px;
+	margin: 20px 0px 10px 0px;
+}
+
+#music-creation-wrap ul li p {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 300;
+	color: #333;
+	margin: 15px 0px;
+}
+
+#music-creation-wrap ul li a {
+	color: #333;
+}
+
+#music-creation-wrap ul li a:hover {
+	text-decoration: underline;
+}
+
+#working-with-apple-music-wrap {
+	width: 80%;
+	margin: 50px auto;
+	border-top: 1px solid lightgray;
+}
+
+#working-with-apple-music-content {
+	width: 50%;
+	margin: 80px auto;
+}
+
+#working-with-apple-music-content img {
+	float: left;
+	vertical-align: top;
+	margin: 0px;
+}
+
+#working-with-apple-music-text {
+	width: 80%;
+	float: right;
+	text-align: left;
+}
+
+#working-with-apple-music-text h3 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 5.2vh;
+}
+
+#working-with-apple-music-text p {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 300;
+	margin: 15px 0px;
+}
+
+#working-with-apple-music-text a {
+	color: #333;
+}
+
+#working-with-apple-music-text a:hover {
+	text-decoration: underline;
+}
+
+/*******end section music-creation*******/
+
+/*****************footer*****************/
+
+footer {
+	background-color: #f2f2f2;
+	font-family: "Ubuntu";
+	margin-top: 100px;
+	padding: 20px 0px;
+}
+
+#lists {
+	width: 80%;
+	margin: auto;
+}
+
+#lists p {
+	font-size: 1.6vh;
+	color: #999;
+}
+
+#new-members {
+	font-size: 2vh!important;
+}
+
+#footer-apple-music {
+	margin: 20px 0px;
+	font-size: 2.5vh;
+	color: #666;
+}
+
+#footer-apple-music i {
+	padding: 0px 5px;
+}
+
+#lists ul {
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+#lists ul li a {
+	font-size: 1.9vh;
+	color: #666;
+}
+
+#lists ul li p {
+	font-size: 2vh;
+	color: black;
+	font-weight: 400;
+	padding-bottom: 5px;
+}
+
+hr {
+	margin: 10px 0px;
+}
+
+#copyright {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#copyright p {
+	color: #999;
+}
+
+#copyright a, #copyright p {
+	font-family: "Ubuntu";
+	font-size: 1.9vh;
+}
+
+#visit-store a {
+	color: blue;
+}
+
+#visit-store a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#copy, #copy-list a {
+	float: left;
+	padding-top: 3px;
+}
+
+#copy-list a {
+	padding: 3px 15px;
+	border-right: 1px solid lightgray;
+	color: #666;
+}
+
+#copy-list a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#copy-list span a {
+	border: none;
+}
+
+#flag {
+	float: right;
+}
+
+#flag a {
+	color: #666;
+}
+
+#flag a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+/************end of footer*************/
